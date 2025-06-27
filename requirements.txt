@@ -60,3 +60,7 @@ black
 flake8
 mypy
 pre-commit
+
+tensorflow_hub
+
+tf2onnx
