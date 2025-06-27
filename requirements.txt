@@ -64,3 +64,6 @@ pre-commit
 tensorflow_hub
 
 tf2onnx
+
+optimum[onnxruntime]
+
