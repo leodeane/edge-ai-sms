@@ -1,6 +1,8 @@
 # edge-ai-sms
 repo for my edge-ai project, smart monitoring system
 
+demo video is located in this main directory titled deane_edge_ai_vid.mkv
+
 ---
 
 # models
