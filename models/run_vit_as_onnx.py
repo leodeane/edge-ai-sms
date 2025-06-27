@@ -72,7 +72,7 @@ for img_path in image_files:
         predicted_idx = logits.argmax(-1).item()
         label = model.config.id2label[predicted_idx]
 
-        time_usage = (f"{os.path.basename(img_path):20} → {label:25} "
+        time_usage = (f"{os.path.basename(img_path):20} -> {label:25} "
               f"Preproc: {preprocess_time:.3f}s, Inf: {inference_time:.3f}s, "
               f"CPU: {cpu_usages[-1]:5.1f}%, RAM: {ram_usages[-1]:5.1f}%")
         
